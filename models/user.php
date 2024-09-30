@@ -20,30 +20,19 @@ class User
     }
  
     static public function find($id){
- 
- 
         $conn = Database::getConnection();
- 
         //: segurança, marcador de posição (placeholder)
         $stmt = $conn->prepare("SELECT * FROM usuarios WHERE id = :id");
-       
         $stmt->execute(['id' => $id]);
- 
         //fetch busca uma alteração da próxima linha
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
  
     // Função para criar um novo usuário no banco de dados
     static public function create($data){
- 
- 
         $conn = Database::getConnection();
- 
         $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
-       
         $stmt->execute($data);
- 
-        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 }
  
