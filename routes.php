@@ -26,4 +26,3 @@ switch ($action){
 }
  
 ?>
-tem menu de contexto
