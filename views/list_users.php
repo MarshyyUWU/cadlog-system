@@ -27,25 +27,25 @@
                     <th>Ações</th>
                 </tr>
             </thead>
-            <>
-                <?php foreach($user as $user) ?>
+            <tbody>
+                <?php foreach ($users as $user) ?>
                 <tr>
                     <td><?php $user['id'] ?></td>
                     <td><?php $user['nome'] ?></td>
                     <td><?php $user['email'] ?></td>
                     <td><?php $user['perfil'] ?></td>
-                    <td>
-                        <?php if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'):?>
+                    <td><?php if($_SESSION['perfil']  == 'admin' || $_SESSION['perfil']  == 'gestor' ):?>
                         <a href="">Editar</a>
                         <?php endif; ?>
+                        <?php if($_SESSION['perfil']  == 'admin'): ?>
+                            <a href="">Excluir</a>
+                            <?php endif; ?>
  
-                        <?php if($_SESSION['perfil'] == 'admin'):?>
-                        <a href="">Excluir</a>
-                        <?php endif; ?>
  
                     </td>
                 </tr>
  
+               
             </tbody>
         </table>
  

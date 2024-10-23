@@ -1,23 +1,23 @@
 <?php
- 
+// Chama o que vai estar dentro do user.php
 require_once 'models/user.php';
  
-//Classe responsável pela autenticação de usuário
+// Classe responsável pela autenticação do usuário
 class AuthController
 {
-    //Função resposável pelo processo de login
+    // função responsável pelo processo de login
     public function login(){
  
-        //Verifica de a requisição HTTP é do tipo POST, ou seja, se o formulário foi enviado
+        // Verifica se a requicisão HTTP é do tipo POST, ou seja, se o formulario foi enviado
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $email = $_POST['email'];
-            $senha = $_POST['password'];
+            $senha = $_POST['senha'];
+            // password_verify verifica se a senha corresponde a um hash
+            $user = User::FindByEmail($email);
  
-            $user = User::findByEmail($email);
-            //password_verify verifica se a senha corresponde a um hash
             if($user && password_verify($senha, $user['senha'])){
                 session_start();
- 
+               
                 $_SESSION['usuario_id'] = $user['id'];
                 $_SESSION['perfil']     = $user['perfil'];
  
@@ -28,6 +28,11 @@ class AuthController
         }else{
             include 'views/login.php';
         }
+    }
+    public function logout(){
+        session_start();
+        session_destroy();
+        header('Location: index.php');
     }
 }
  

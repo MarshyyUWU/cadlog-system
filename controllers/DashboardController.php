@@ -1,19 +1,20 @@
 <?php
-
-Class DashboardController
+ 
+class DashboardController
 {
-    // Função index, responsável por exibir a página dashboard
+    // função index, responssavel por exibir a pagina
     public function index()
     {
-    // Inicia a sessão para verificar se o usuário está autenticado
+ 
+    // função que vai iniciar a sessão pra varificar se o usuario esta autentica
     session_start();
-
-    if(!isset($session['usuario_id'])){
-        // redireciona o suário para a página inicial
-        header('Location: index.php');
-        exit; //Garante que o scrip seja interrompido
+ 
+    if(!isset($_SESSION['usuario_id'])){
+        // redireciona o usuario para a pagina inicial
+        header('locatio: index.php');
+        exit; // garante que o script seja interrompido
     }
-    //Se o usuário estiver autenticado, inclui a View 'dashboard', que exibe o painel de controle
+   
     include 'views/dashboard.php';
     }
 }
