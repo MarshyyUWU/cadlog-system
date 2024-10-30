@@ -9,20 +9,19 @@
 [Fontes consultoras](#fontes-consultadas)  
 [Autores](#autores)  
 
-# 🛒 Projeto CadLog System 🛒
-![Cadlog system index](cadloggif.gif)
 ## ⬇ Descrição
 Um projeto de ultimo trimestre, aonde temos que fazer com principalmente php, uma tela de cadastro, login, registro de usuários e a parte administrativa dos novos usuários. 
+
+# 🛒 Projeto CadLog System 🛒
+![Cadlog system index](cadloggif.gif)
+
 ## 👌Funcionalidade
-Com o admin podendo editar ou excluir informações de usuário, para qualquer erro cometido incluso, ou para apenar a exclusão de tal cliente ou funcionário.
-- `Início`
-Começando
-- `Características`
-- `Contatos`
+Com o admin podendo editar ou excluir informações de usuário, para qualquer erro cometido incluso, ou para apenas a exclusão de tal cliente ou funcionário.
+
 ### 💖Tecnologias utilizadas
-CSS3 
-HTML5
-### versão do VSCODE
+- `CSS3` 
+- `HTML5`
+### Versão do VSCODE
 - Version: 1.71.0 (system setup)
 - Commit: 784b0177c56c607789f9638da7b6bf3230d47a8c
 - Date: 2022-09-01T07:36:10.600Z
