@@ -9,29 +9,29 @@
 [Fontes consultoras](#fontes-consultadas)  
 [Autores](#autores)  
 
-# 🛒 Projeto CadLog System index 🛒
+# 🛒 Projeto CadLog System 🛒
 ![Cadlog system index](cadloggif.gif)
-## ❤️Descrição
-Isso é um projeto que assim, foi criado para me ajudar a aprender com a comentação de códigos. Os jeito mais organizados e entendivelmente possivel a todos que estejam lendo esse arquivo README.
-## 😘Funcionalidade
-O código está servindo como uma demonstração de um estilo e edição de bootstrap. Que cira uma pagina aonde temos as opções:
+## ⬇ Descrição
+Um projeto de ultimo trimestre, aonde temos que fazer com principalmente php, uma tela de cadastro, login, registro de usuários e a parte administrativa dos novos usuários. 
+## 👌Funcionalidade
+Com o admin podendo editar ou excluir informações de usuário, para qualquer erro cometido incluso, ou para apenar a exclusão de tal cliente ou funcionário.
 - `Início`
-Como a imagem logo acima no README. --------------------------------------------
+Começando
 - `Características`
 - `Contatos`
 ### 💖Tecnologias utilizadas
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-#### VSCODE
-- Version: 1.80.2 (system setup)  
-- Commit: 2ccd690cbff1569e4a83d7c43d45101f817401dc  
-- Date: 2023-07-27T20:40:28.909Z  
-- Electron: 22.3.14  
-- ElectronBuildId: 22695494  
-- Chromium: 108.0.5359.215   
-- V8: 10.8.168.25-electron.0  
-- OS: Windows_NT x64 10.0.22000  
+CSS3 
+HTML5
+### versão do VSCODE
+- Version: 1.71.0 (system setup)
+- Commit: 784b0177c56c607789f9638da7b6bf3230d47a8c
+- Date: 2022-09-01T07:36:10.600Z
+- Electron: 19.0.12
+- Chromium: 102.0.5005.167
+- Node.js: 16.14.2
+- V8: 10.2.154.15-electron.0
+- OS: Windows_NT x64 10.0.22631
+- Sandboxed: No
 ## 🥰Fontes consultadas
 
 * [Alura](https://www.alura.com.br/artigos/escrever-bom-readme) - Como escrever um README incrível
@@ -39,4 +39,3 @@ Como a imagem logo acima no README. --------------------------------------------
 
 ## 😍Autores
 * [Marsh](https://github.com/MarshyyUWU)
-* [mdo](https://twitter.com/mdo)
