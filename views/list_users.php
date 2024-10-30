@@ -30,10 +30,10 @@
             <tbody>
                 <?php foreach ($users as $user) ?>
                 <tr>
-                    <td><?php $user['id'] ?></td>
-                    <td><?php $user['nome'] ?></td>
-                    <td><?php $user['email'] ?></td>
-                    <td><?php $user['perfil'] ?></td>
+                    <td><?= $user['id'] ?></td>
+                    <td><?= $user['nome'] ?></td>
+                    <td><?= $user['email'] ?></td>
+                    <td><?= $user['perfil'] ?></td>
                     <td><?php if($_SESSION['perfil']  == 'admin' || $_SESSION['perfil']  == 'gestor' ):?>
                         <a href="">Editar</a>
                         <?php endif; ?>
@@ -49,7 +49,7 @@
             </tbody>
         </table>
  
-        <a href="" class="btn">Voltar ao Dashboard</a>
+        <a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
     </div>
 </body>
  

@@ -11,7 +11,7 @@ class DashboardController
  
     if(!isset($_SESSION['usuario_id'])){
         // redireciona o usuario para a pagina inicial
-        header('locatio: index.php');
+        header('locate: index.php');
         exit; // garante que o script seja interrompido
     }
    

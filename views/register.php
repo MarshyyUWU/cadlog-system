@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" type='text/css' media='screen' href="main.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="css/regis.css">
  
 </head>
 <body>
@@ -14,20 +14,20 @@
         <form action="index.php?action=register" method="post">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required>
- 
+            <br>
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
- 
+            <br>
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" required>
- 
+            
             <label for="perfil">Perfil</label>
             <select name="perfil" id="perfil">
                 <option value="admin">Admin</option>
                 <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
- 
+            <br>
             <button type="submit">Cadastrar</button>
         </form>
         <a href="index.php?action=login">Voltar ao Login</a>
