@@ -2,7 +2,7 @@
 
 # Índice
 
-[🛒 Projeto CadLog System index 🛒](#Projeto-CadLog-System-index)  
+[Gif Demonstrativo](#-projeto-cadlog-system-)  
 [Descrição](#-descri%C3%A7%C3%A3o)  
 [Funcionalidade](#funcionalidade)  
 [Tecnologias utilizadas](#tecnologias-utilizadas)  
