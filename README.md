@@ -10,7 +10,7 @@
 [Autores](#autores)  
 
 # 🛒 Projeto CadLog System index 🛒
-![gif](gif/cadloggif.gif)
+![Cadlog system index](cadloggif.gif)
 ## ❤️Descrição
 Isso é um projeto que assim, foi criado para me ajudar a aprender com a comentação de códigos. Os jeito mais organizados e entendivelmente possivel a todos que estejam lendo esse arquivo README.
 ## 😘Funcionalidade
