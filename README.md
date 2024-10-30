@@ -3,7 +3,7 @@
 # Índice
 
 [🛒 Projeto CadLog System index 🛒](#Projeto-CadLog-System-index)  
-[Descrição](#descri%C3%A7%C3%A3o)  
+[Descrição](#-descri%C3%A7%C3%A3o)  
 [Funcionalidade](#funcionalidade)  
 [Tecnologias utilizadas](#tecnologias-utilizadas)  
 [Fontes consultoras](#fontes-consultadas)  
